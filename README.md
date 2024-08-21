@@ -1,4 +1,4 @@
-Sure, here's an updated GitHub README for Luna, a Discord bot written in Python, with information about the repository you provided:
+
 
 ---
 
