@@ -560,4 +560,9 @@ async def ibot(ctx):
     # Permissions integer for the bot (you can customize this as needed)
     permissions = discord.Permissions(permissions=0)
     # Generate the invite URL
-    invite_url = discord.util
+    invite_url = discord.utils.oauth_url(client_id, permissions=permissions)
+    await ctx.send(f"Invite the bot using this link: {invite_url}")
+
+
+bot.run(
+    'yourToken')
